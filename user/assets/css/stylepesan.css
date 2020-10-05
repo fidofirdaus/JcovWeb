@@ -1,0 +1,37 @@
+#loading_kirim_pesan,
+#loading_balas_pesan {
+    visibility: hidden;
+    font-style: italic;
+}
+
+#keterangan {
+    padding: 3px;
+    font-weight: bold;
+}
+
+.sukses {
+    border: 1px solid green;
+    color: green;
+}
+
+.gagal {
+    border: 1px solid red;
+    color: red;
+}
+
+tr.pesan_belum {
+    background-color: aqua;
+    font-weight: bold;
+}
+
+#kirim_pesan,
+#balas_pesan {
+    display: none;
+    border: 2px solid #eb5d1e;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#status_kirim_pesan {
+    display: none;
+}
